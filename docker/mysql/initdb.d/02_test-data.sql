@@ -1,0 +1,1 @@
+INSERT INTO something(id, name) VALUES(1, 'mitsuya');

@@ -1,0 +1,5 @@
+CREATE TABLE something (
+id INT NOT NULL,
+NAME VARCHAR(10) NOT NULL,
+PRIMARY KEY (id)
+);

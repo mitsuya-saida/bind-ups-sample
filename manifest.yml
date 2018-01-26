@@ -1,0 +1,7 @@
+applications:
+- name: bind-ups-sample
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  memory: 1G
+  path: build/libs/bind-ups-sample-0.0.1-SNAPSHOT.jar
+  services:
+    - my-user-provided-service

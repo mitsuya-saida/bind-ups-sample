@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: ${vcap.services.my-user-provided-service.credentials.url}
+    username: ${vcap.services.my-user-provided-service.credentials.user}
+    password: ${vcap.services.my-user-provided-service.credentials.password}
